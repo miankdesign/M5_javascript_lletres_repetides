@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lletres repetides · Fase 2 </title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // array 
+        var nombre = ["M", "1", "G", "U", "3", "L", "A", "N", "G", "E", "7"];
+
+
+        // bucle "for of"
+        for (var i of nombre) {
+            if (i == "A" || i == "E" || i == "I" || i == "O" || i == "U") {
+                console.log("Esta es una VOCAL: " + i);
+            }
+
+            else if (i == "0" || i == "1" || i == "2" || i == "3" || i == "4" || i == "5" || i == "6" || i == "7" || i == "8" || i == "9") {
+                console.log("Esta es una NÚMERO: " + i);
+
+            } else {
+                console.log("Esta es una CONSONANTE: " + i);
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>

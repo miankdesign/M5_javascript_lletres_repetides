@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lletres repetides · Fase 3 </title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // array 
+        var nombre = ["M", "I", "G", "U", "E", "L", "A", "N", "G", "E", "L"];
+        var repetidos = nombre.map;
+
+
+        // bucle map
+        nombre.map(function (numero) {
+            repetidos[numero] = (repetidos[numero] || 0) + 1;
+        });
+
+        console.log(repetidos);
+
+
+    </script>
+
+</body>
+
+</html>
